@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Deblina & Shalaj</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.6/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+  <script>
+    function getHeight() {
+        var height = $(window).height();
+        jQuery('div.carousel-caption qoute').css('height',height+'px');
+        return height+'px';
+    }
+  </script>
+  <link rel="stylesheet" href="home.css">
+</head>
+<body>
+
+<div id="demo" class="carousel slide" data-ride="carousel">
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+    <li data-target="#demo" data-slide-to="3"></li>
+  </ul>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="met.jpg" alt="We Met">
+      <div class="carousel-caption qoute">
+        <h3 style="color: red; font-family: 'Comic Sans MS'; margin-bottom: 572px">Monica and Chandler to be...</h3>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="2.jpg" alt="We Fell in Love">
+      <div class="carousel-caption qoute">
+        <h3 style="color: red; font-family: 'Comic Sans MS'; margin-bottom: 572px">
+          We will be promising to be each other companion through thick and thin...</h3>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="marry.jpg" alt="We are Getting Married">
+      <div class="carousel-caption qoutes">
+        <h3>We are getting married</h3>
+        <p>Be the witness of us promising each other to survive each other for life</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="invite.jpg" alt="We are Getting Married">
+      <div class="carousel-caption qoutes">
+        <h2>Deblina and Shalaj</h2>
+        <h3>Wedding</h3>
+        <p>18-02-2018</p>
+        <p>at</p>
+        <p>Hotel Ashok Sarovar, Saheb Bandh Road, Purulia, West Bengal</p>
+        <h3>Reception</h3>
+        <p>20-02-2018</p>
+        <p>at</p>
+        <p>Punaichak, Patna, Bihar</p>
+      </div>
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+</div>
+
+</body>
+</html>
